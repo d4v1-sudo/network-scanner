@@ -19,14 +19,17 @@ To use the network scanner, you need to have Python installed on your system. Fo
 
 2. Navigate to the project directory:
 
-cd network-scanner
+   ```shell
+   cd network-scanner
 
 3. Install the required Python packages by running:
 
-pip install -r requirements.txt
+   ```shell
+   pip install -r requirements.txt
 
 4. Run the scanner with a target host or IP address as an argument:
 
-python3 network_scanner.py target
+   ```shell
+   python3 network_scanner.py target
 
 Replace `target` with the hostname or IP address you want to scan.
