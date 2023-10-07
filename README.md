@@ -27,6 +27,6 @@ pip install -r requirements.txt
 
 4. Run the scanner with a target host or IP address as an argument:
 
-python network_scanner.py targetc
+python3 network_scanner.py <target>
 
 Replace `target` with the hostname or IP address you want to scan.
