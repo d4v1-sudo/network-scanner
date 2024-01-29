@@ -15,7 +15,7 @@ To use the network scanner, you need to have Python installed on your system. Fo
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/network-scanner.git
+   https://github.com/d4v1-sudo/network-scanner.git
 
 2. Navigate to the project directory:
 
