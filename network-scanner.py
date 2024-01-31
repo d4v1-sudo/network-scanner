@@ -120,7 +120,7 @@ def print_separator():
     print('-' * 50)
 
 def main():
-    parser = argparse.ArgumentParser(description="Network Scanner")
+    parser = argparse.ArgumentParser(description="Network Scanner", add_help=False)
     parser.add_argument("target", help="Target host or IP address")
     args = parser.parse_args()
 
