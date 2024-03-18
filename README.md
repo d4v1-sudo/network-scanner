@@ -1,6 +1,6 @@
-# Network Scanner
+# Simple ip/site scanner
 
-This Python script is a network scanning tool that allows you to gather information about a target host or IP address. It provides various functionalities, including:
+This Python script is a ip/site scanning tool that allows you to gather information about a target host or IP address. It provides various functionalities, including:
 
 - Ping the target host.
 - Scan open ports using Nmap.
@@ -15,12 +15,12 @@ To use the network scanner, you need to have Python installed on your system. Fo
 1. Clone this repository to your local machine:
 
    ```shell
-   https://github.com/d4v1-sudo/network-scanner.git
+   https://github.com/d4v1-sudo/simple-ip-scanner.git
 
 2. Navigate to the project directory:
 
    ```shell
-   cd network-scanner
+   cd simple-ip-scanner
 
 3. Install the required Python packages by running:
 
@@ -30,6 +30,6 @@ To use the network scanner, you need to have Python installed on your system. Fo
 4. Run the scanner with a target host or IP address as an argument:
 
    ```shell
-   python3 network_scanner.py target
+   python3 simple-ip-scanner.py <target>
 
-Replace `target` with the hostname or IP address you want to scan.
+Replace `<target>` with the hostname or IP address you want to scan.
